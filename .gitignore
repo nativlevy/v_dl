@@ -1,0 +1,16 @@
+fonts/
+logic/
+tmp/
+venv/
+.idea/
+__pycache__/
+content_segment_exporter.py
+main_2.py
+main_3.py
+part.mp4
+video.mkv
+plot.py
+subtitle_part.py
+time_utils.py
+video_segment_finder.py
+video_to_pdf.py
