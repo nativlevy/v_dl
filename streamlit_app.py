@@ -44,3 +44,7 @@ if st.button('Convert'):
         st.download_button('Download Video', f, target_name)
         os.remove(filename)
         os.remove(target_name)
+        test = os.listdir('.')
+        for item in test:
+            if item.endswith(".webm") or item.endswith(".mp4") or item.endswith(".mkv") or item.endswith(".mp3"):
+                os.remove(os.path.join('.', item))
