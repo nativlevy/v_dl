@@ -7,7 +7,7 @@ from moviepy.video.io.VideoFileClip import VideoFileClip
 
 url = st.text_input('Video URL')
 if "&list" in url:
-    url = url.split("&list")[0]
+    url = url.split("&")[0]
 
 # https://www.youtube.com/watch?v=m5t082lDFdc
 # 4:23
